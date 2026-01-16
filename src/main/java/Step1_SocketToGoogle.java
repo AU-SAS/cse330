@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class SocketToGoogle {
+public class Step1_SocketToGoogle {
 
   public static void main(String[] args) {
 
