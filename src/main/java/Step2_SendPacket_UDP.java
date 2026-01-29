@@ -13,7 +13,7 @@ public class Step2_SendPacket_UDP {
 
     InetAddress address = InetAddress.getLocalHost();
 
-    DatagramPacket packet = new DatagramPacket(buffer, buffer.length, address, 1024);
+    DatagramPacket packet = new DatagramPacket(buffer, buffer.length, address, 1023);
 
     DatagramSocket datagramSocket = new DatagramSocket();
 
